@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box
+}
+
+#container{
+margin-left: auto;
+margin-right: auto;
+padding-right: 245px;
+padding-left: 245px;
+background-color: azure;
+border: 10px, solid,#4CAF50;
+}
+h1, p{
+  text-align: center;
+}
+h1{
+  background-color: #4CAF50;
+color: #ddd;
+}
+p{
+  color: chocolate;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+
+
+
+body {
+	background: #3b5998;
+	font-size: 1.1em;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+}
+form {
+	width: 25%;
+	margin: 70px auto;
+	background: white;
+	padding: 10px;
+	border-radius: 3px;
+}
+h2.form-title {
+	text-align: center;
+}
+input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+}
+form .form-group {
+	margin: 10px auto;
+}
+form button {
+	width: 100%;
+	border: none;
+	color: white;
+	background: #3b5998;
+	padding: 15px;
+	border-radius: 5px;
+}
+.msg {
+	margin: 5px auto;
+	border-radius: 5px;
+	border: 1px solid red;
+	background: pink;
+	text-align: left;
+	color: brown;
+	padding: 10px;
+}
+.form_error input {
+  border: 1px solid #D83D5A;
+
+}
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1em;
+  color: #D83D5A;
+}
